@@ -34,6 +34,17 @@ header {
     background-position: center;
 }
 
+.header__calendar{
+    position: relative;
+    /* Para el contexto de posicionamiento */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(180deg, #00000036 0%, #0000004f 100%), url(../images/cerebroEnredado.png); ;
+}
 
 .nav {
     position: fixed;
