@@ -46,24 +46,75 @@
                 <li><a href="#">Contacto</a></li>
                 <li><a href="#">Blog</a></li>
             </ul>
-    
+
             <div class="menu-btn">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </nav>
 
+        <div class="header__calendar__text">
+            <h3 class="calendar__subtitle">
+                Pide tu sesión ahora.
+            </h3>
+        </div>
     </header>
-    
 
-    <!-- Principio del widget integrado de Calendly -->
-    <div class="calendly-inline-widget"
-        data-url="https://calendly.com/amoraledaol/psicosesion"
-        style="min-width:320px;height:700px;"></div>
-    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-    <!-- Final del widget integrado de Calendly -->
+    <main>
+        <!-- Principio del widget integrado de Calendly -->
+        <div class="calendly-inline-widget"
+            data-url="https://calendly.com/amoraledaol/psicosesion?embed_domain=127.0.0.1%3A5500&embed_type=Inline&hide_landing_page_details=1&primary_color=cf00ff&back=1&month=2024-05"
+            style="min-width:320px;height:900px;"></div>
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <!-- Final del widget integrado de Calendly -->
 
-     <!--Scripts-->
-     <script src="./js/menu.js"></script>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">Seliana Psicología</h2>
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Contacto</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <form class="footer__form" action="https://formspree.io/f/moqgzndk" method="POST">
+                <h2 class="footer__email">Escribe tu e-mail aquí.</h2>
+                <div class="footer__inputs">
+                    <input type="email" placeholder="Email:" class="footer__input" name="email">
+                    <input type="submit" value="Registrate" class="footer__submit">
+                </div>
+            </form>
+        </section>
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="#" class="footer__icons"><img src="./images/instagram.svg" alt="Símbolo de instagram"
+                        class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/whatsapp.svg" alt="Símbolo de whatsapp"
+                        class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/twitter.svg" alt="Símbolo de twitter"
+                        class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">All rights reserved &copy;Seliana Psicología</h3>
+        </section>
+    </footer>
+
+    <!--Scripts-->
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>
