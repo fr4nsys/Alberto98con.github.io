@@ -8,11 +8,11 @@
     <title>Seliana Psico</title>
     <link rel="shortcut icon" href="./images/imagenPequeña.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/estilos__equipo.css">
+    <link rel="stylesheet" href="./css/estilos.css">
 </head>
 
 <body>
-    <header>
+    <header class="header__team">
         <nav class="nav">
             <div class="logo">SELIANA PSICOLOGÍA</div>
             <ul class="menu">
@@ -29,24 +29,50 @@
     </header>
 
     <main>
-        <div class="container">
-            <h1>Conoce a Nuestro Equipo</h1>
-            <div class="card">
-                <img src="ruta/a/foto1.jpg" alt="Foto de Integrante 1">
-                <h2>Nombre del Integrante 1</h2>
-                <p>Especialidad: Psicología Clínica</p>
-                <p>Teléfono: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
-                <p>Email: <a href="mailto:integrante1@example.com">integrante1@example.com</a></p>
+        <section class="team">
+            <div class="team__container container">
+                <h1>Conoce a Nuestro Equipo</h1>
+                <div class="card">
+                    <img src="ruta/a/foto1.jpg" alt="Foto de Integrante 1">
+                    <div class="card-content">
+                        <h2>Nombre del Integrante 1</h2>
+                        <p>Especialidad: Psicología Clínica</p>
+                        <p>Teléfono: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+                        <p>Email: <a href="mailto:integrante1@example.com">integrante1@example.com</a></p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="ruta/a/foto2.jpg" alt="Foto de Integrante 2">
+                    <div class="card-content card-content-reverse">
+                        <h2>Nombre del Integrante 2</h2>
+                        <p>Especialidad: Psicología Infantil</p>
+                        <p>Teléfono: <a href="tel:+0987654321">+1 (987) 654-321</a></p>
+                        <p>Email: <a href="mailto:integrante2@example.com">integrante2@example.com</a></p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="ruta/a/foto3.jpg" alt="Foto de Integrante 3">
+                    <div class="card-content">
+                        <h2>Nombre del Integrante 3</h2>
+                        <p>Especialidad: Psicología Educativa</p>
+                        <p>Teléfono: <a href="tel:+1122334455">+1 (112) 233-4455</a></p>
+                        <p>Email: <a href="mailto:integrante3@example.com">integrante3@example.com</a></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="ruta/a/foto4.jpg" alt="Foto de Integrante 4">
+                    <div class="card-content card-content-reverse">
+                        <h2>Nombre del Integrante 4</h2>
+                        <p>Especialidad: Psicología Deportiva</p>
+                        <p>Teléfono: <a href="tel:+5566778899">+1 (556) 677-8899</a></p>
+                        <p>Email: <a href="mailto:integrante4@example.com">integrante4@example.com</a></p>
+                    </div>
+                </div>
+                <!-- Añade más tarjetas de integrantes aquí -->
             </div>
-            <div class="card">
-                <img src="ruta/a/foto2.jpg" alt="Foto de Integrante 2">
-                <h2>Nombre del Integrante 2</h2>
-                <p>Especialidad: Psicología Infantil</p>
-                <p>Teléfono: <a href="tel:+0987654321">+1 (987) 654-321</a></p>
-                <p>Email: <a href="mailto:integrante2@example.com">integrante2@example.com</a></p>
-            </div>
-            <!-- Añade más tarjetas de integrantes aquí -->
-        </div>
+        </section>
     </main>
 
     <footer class="footer">
@@ -98,6 +124,7 @@
 
     <!--Scripts-->
     <script src="./js/menu.js"></script>
+    <script src="./js/doc__loader.js"></script>
 </body>
 
 </html>

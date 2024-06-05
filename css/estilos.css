@@ -535,7 +535,68 @@ header {
     width: 30px;
 }
 
-
+/*Equipo*/
+.header__team {
+    position: relative;
+    /* Para el contexto de posicionamiento */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(180deg, #0000006d 0%, #00000070 100%), url(../images/psicologia_online.jpg);
+    background-size: cover;
+}
+/*Tarjetas de equipo*/
+.container {
+    padding: 20px;
+}
+.card {
+    background-color: rgb(255, 255, 255);
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+}
+.card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.card-content {
+    margin-left: 20px;
+}
+.card-content-reverse {
+    margin-right: 20px;
+    margin-left: 0;
+}
+.card h2 {
+    margin: 10px 0 5px;
+}
+.card p {
+    margin: 5px 0;
+}
+.card a {
+    color: #007BFF;
+    text-decoration: none;
+}
+.card a:hover {
+    text-decoration: underline;
+}
+.card.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.card:nth-child(even) {
+    flex-direction: row-reverse;
+}
 /*Calendario*/
 
 .header__calendar{
@@ -738,5 +799,32 @@ header {
     .footer__submit{
         margin-right: auto;
         margin-left: 0;
+    }
+}
+
+/*Media del apartado Equipo*/
+@media (min-width: 768px) {
+    .card {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .card:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    .card-content,
+    .card-content-reverse {
+        margin: 0 20px;
+        text-align: left;
+    }
+}
+@media (min-width: 1200px) {
+    .card {
+        max-width: 80%;
+        margin: 20px auto;
+    }
+    .card img {
+        width: 200px;
+        height: 200px;
     }
 }
