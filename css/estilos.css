@@ -646,7 +646,7 @@ header {
         left: 0;
         width: 300px;
         height: 100vh;
-        background: linear-gradient(#470cd2, #e1b149);
+        background: linear-gradient(#470cd2, #e2a92d);
         opacity: 95%;
         display: flex;
         flex-direction: column;
@@ -814,21 +814,6 @@ header {
 }
 
 /*Media del apartado Equipo*/
-@media (min-width: 768px) {
-    .card {
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-    .card:nth-child(even) {
-        flex-direction: row-reverse;
-    }
-    .card-content,
-    .card-content-reverse {
-        margin: 0 20px;
-        text-align: left;
-    }
-}
 @media (min-width: 1200px) {
     .card {
         max-width: 80%;
@@ -837,5 +822,26 @@ header {
     .card img {
         width: 200px;
         height: 200px;
+    }
+}
+@media (min-width: 768px) {
+    .card {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-content,
+    .card-content-reverse {
+        margin: 0 20px;
+        text-align: left;
+    }
+}
+@media (max-width: 768px){
+    .card{
+        flex-direction: column;
+    }
+
+    .card:nth-child(even) {
+        flex-direction: column;
     }
 }
