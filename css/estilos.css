@@ -220,6 +220,7 @@ header {
 .knowledge__img {
     width: 100%;
     display: block;
+    border-radius: 35px;
 }
 
 /*Contenedor de precios*/
@@ -348,10 +349,13 @@ header {
 }
 
 /*Questions*/
-
 .questions{
     text-align: center;
+    background: #F5F5F5;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+
 
 .questions__container{
     display: grid;
