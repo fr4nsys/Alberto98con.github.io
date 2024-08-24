@@ -9,3 +9,8 @@ const menu = document.querySelector('.menu');
     menu_btn.addEventListener('click', () => {
         menu.classList.toggle('active')
     })
+document.addEventListener('click', function(event) {
+    if (!menu.contains(event.target) && !menu_btn.contains(event.target)) {
+        menu.classList.remove('active');
+    }
+});
