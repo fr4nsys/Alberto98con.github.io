@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /Backups/
+Disallow: /css/
+Disallow: /js/
+
+Sitemap: https://www.selianapsicologia.com/sitemap.xml
