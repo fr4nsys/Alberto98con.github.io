@@ -177,9 +177,15 @@ header {
     margin: 0 auto;
 }
 
+.about__icons a {
+    background-color: #3c4de9; /*Para cambiar el color del botón aquí*/
+}
+
 .about__icon {
     width: 40px;
 }
+
+
 
 /*Knowledge*/
 
