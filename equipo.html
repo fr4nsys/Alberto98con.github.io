@@ -45,34 +45,49 @@
         <section class="team">
             <div class="team__container container">
                 <h1 class="team__title">Conoce a Nuestro Equipo</h1>
-                <p class="team__text">Y pide cita directa con quien mejor se adapte a tu situación<p>
+                <p class="team__text">Y pide cita directa con quien mejor se adapte a tu situación</p>
 
-                        <div class="card">
-                            <img src="./images/personaIcono.jpg" alt="Foto de Integrante 1">
-                            <div class="card-content">
-                                <h2>Mª Paz González Calero</h2>
-                                <p>Psicóloga Sanitaria</p>
-                                <p>Especialista Infanto-Juvenil</p>
-                                <!--<p>Teléfono: <a href="tel:+34692560763">692 560 763</a></p>-->
-                                <p>Email: <a href="mailto:maripazgnzc@gmail.com">maripazgnzc@gmail.com</a></p>
+                <div class="card">
+                    <img src="./images/personaIcono.jpg" alt="Foto de Integrante 1">
+                    <div class="card-content">
+                        <h2>Mª Paz González Calero</h2>
+                        <p>Psicóloga Sanitaria</p>
+                        <p>Especialista Infanto-Juvenil</p>
+                        <p>Email: <a href="mailto:maripazgnzc@gmail.com">maripazgnzc@gmail.com</a></p>
+                        <a href="#" class="expand-btn">Más información</a> <!-- Enlace para expandir -->
+                        <a href="#" class="close-btn">Ocultar</a> <!-- Botón para colapsar -->
+
+                    </div>
+                    <div class="card-description">
+                        <p>Mª Paz González es una psicóloga con más de 10 años de experiencia trabajando con niños y
+                            adolescentes en diversas áreas como el TDAH, el estrés infantil y la ansiedad. Su enfoque
+                            terapéutico se basa en la terapia cognitivo-conductual, que ayuda a los jóvenes a gestionar
+                            sus emociones de manera efectiva.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./images/personaIcono.jpg" alt="Foto de Integrante 2">
+                    <div class="card-content card-content-reverse">
+                        <h2>Alberto Moraleda Olivares</h2>
+                        <p>Psicólogo Sanitario</p>
+                        <p>Experto en Neuropsicología</p>
+                        <p>Teléfono: <a href="tel:+34681025888">681 025 888</a></p>
+                        <p>Email: <a href="mailto:amoraledaol@gmail.com">amoraledaol@gmail.com</a></p>
+                        <a href="#" class="expand-btn">Más información</a> <!-- Enlace para expandir -->
+                        <a href="#" class="close-btn">Ocultar</a> <!-- Botón para colapsar -->
 
 
-                            </div>
-                        </div>
+                    </div>
+                    <div class="card-description">
+                        <p>Alberto Moraleda tiene un profundo conocimiento en neuropsicología y ha trabajado con
+                            pacientes que sufren de trastornos cognitivos, demencia y lesiones cerebrales. Se enfoca en
+                            técnicas de rehabilitación neuropsicológica para ayudar a los pacientes a mejorar su calidad
+                            de vida.</p>
+                    </div>
+                </div>
 
-                        <div class="card">
-                            <img src="./images/personaIcono.jpg" alt="Foto de Integrante 2">
-                            <div class="card-content card-content-reverse">
-                                <h2>Alberto Moraleda Olivares</h2>
-                                <p>Psicólogo Sanitario</p>
-                                <p>Experto en Neuropsicología</p>
-                                <p>Teléfono: <a href="tel:+34681025888">681 025 888</a></p>
-                                <p>Email: <a href="mailto:amoraledaol@gmail.com">amoraledaol@gmail.com</a></p>
-
-                            </div>
-                        </div>
-
-                        <!--<div class="card">
+                <!--<div class="card">
                             <img src="./images/personaIcono.jpg" alt="Foto de Integrante 3">
                             <div class="card-content">
                                 <h2>Miriam Sánchez González</h2>
@@ -106,7 +121,7 @@
                         </div>-->
 
 
-                        <!-- Añade más tarjetas de integrantes aquí -->
+                <!-- Añade más tarjetas de integrantes aquí -->
             </div>
         </section>
     </main>
@@ -159,6 +174,8 @@
     <!--Scripts-->
     <script src="./js/menu.js"></script>
     <script src="./js/doc__loader.js"></script>
+    <script src="./js/card__expander.js"></script>
+
 </body>
 
 </html>
