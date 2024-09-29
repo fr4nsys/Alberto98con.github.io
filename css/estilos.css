@@ -451,11 +451,11 @@ header {
 .footer__subtitle{
     font-weight: 150;
     margin-top: 5px;
+    color: #fff;
 }
 
 .footer__title,
-.footer__email,
-.footer__subtitle {
+.footer__email{
     color: #fff;
 }
 
