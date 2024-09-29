@@ -448,8 +448,14 @@ header {
     margin-bottom: 30px;
 }
 
+.footer__subtitle{
+    font-weight: 150;
+    margin-top: 5px;
+}
+
 .footer__title,
-.footer__email {
+.footer__email,
+.footer__subtitle {
     color: #fff;
 }
 
