@@ -206,7 +206,7 @@ header {
     align-items: center;
 }
 
-.knowledge__text a {
+.cta_knowledge {
     background-color: #3c4de9;
     /*Para cambiar el color del botón aquí*/
 }
@@ -230,6 +230,7 @@ header {
     display: block;
     border-radius: 35px;
 }
+
 
 /*Contenedor de precios*/
 
@@ -737,7 +738,7 @@ header {
     text-align: center;
     width: 100%;
     height: 300px;
-    background-image: linear-gradient(180deg, #0000006d 0%, #00000070 100%), url(../images/cerebroEnredado.png);
+    background-image: linear-gradient(180deg, #0000006d 0%, #00000070 100%), url(../images/terapia2.jpg);
     ;
 }
 
